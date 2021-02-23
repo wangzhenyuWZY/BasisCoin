@@ -1,0 +1,49 @@
+.homeBody{
+    text-align:center;
+    padding-bottom:36px;
+    .welcome{
+      font-size:28px;
+      color:#E21C79;
+      line-height:33px;
+      font-family: Roboto-MediumItalic, Roboto;
+      padding-top:8px;
+      padding-bottom:4px;
+    }
+    .logoimg{
+      display:block;
+      width:220px;
+      height:134px;
+      text-align:center;
+      line-height:134px;
+      margin:0 auto;
+      img{
+        vertical-align: middle;
+      }
+    }
+    .tips{
+      font-size:16px;
+      color:#A9ADBA;
+      line-height:100%;
+      padding-bottom:48px;
+    }
+  }
+.container{position: relative;min-height: calc(100vh);}  
+
+@media screen and (max-width: 750px) {
+    .homeBody{
+        &>img{
+            width:240px;
+            padding-top:36px;
+        }
+        .welcome{
+            font-size:24px;
+        }
+        .tips{
+            width:284px;
+            margin:0 auto;
+            font-size:12px;
+            padding-bottom:36.5px;
+        }
+    }
+
+}
